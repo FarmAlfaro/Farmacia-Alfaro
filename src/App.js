@@ -1,25 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Fragment, useEffect } from 'react'; 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom' 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import './App.css';
 
+import Header from './components/Layout/Header';
+import Salud from './components/Salud';
+import TablaTurno from './components/TablaTurno';
+import Services from './components/Services';
+
+
+import Page from './components/Page';
+
+
 function App() {
+  useEffect(() => {
+
+    AOS.init();
+
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Fragment>
+      <Router>
+        <Switch>
+          <Route path='/' exact component={Header} />
+          <Route path='/Salud' exact component={Salud} />
+          <Route path='/TablaTurno' exact component={TablaTurno} />
+          <Route path='/Services' exact component={Services} />
+        </Switch>
+        <Page />
+      </Router> 
+    </Fragment>
+
   );
 }
 

@@ -1,38 +1,624 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* === COLORES === */
+:root{
+    --first-color: #1FDE82;
+    --second-color: #f2f2f2;
+    --white-color: #fff;
+    --black-color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body::-webkit-scrollbar{
+    width: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+body::-webkit-scrollbar-thumb{
+    background: var(--first-color);
+    border-radius: 5px;
+    overflow-x: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, h2, h3, h4, h5 ,h6{
+    color: #1d273d;
+    font-weight: 300;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor1{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+/* HEADER */
+
+.space{
+    margin-top: 80px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+nav img{
+    margin-left: 60px;
+}
+
+.sticky{
+    background: var(--white-color);
+    padding: 10px 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sticky img{
+    margin-left: 60px;
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+}
+
+nav ul{
+    position: relative;
+    display: flex;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+}
+
+nav ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.contenido-header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-header > img{
+    width: 550px;
+    animation: ease-in animat 1s;
+}
+
+@keyframes animat{
+    0%{
+        transform: scale(0);
+    }100%{
+        transform: scale(1);
+    }
+}
+
+.textos-header{
+    margin: 0 0 0 30px;
+}
+
+.contenido-header h1{
+    text-align: center;
+}
+
+.contenido-header p{
+    font-weight: 300;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.contenido-header a{
+    margin-top: 28px;
+    margin-left: 100px;
+    width: 130px;
+    display: inline-block;
+    background: var(--first-color);
+    text-align: center;
+    color: var(--white-color);
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(31, 222, 230, .46);
+}
+
+.titulo{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.tituloT{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -50px;
+}
+
+.tituloT2{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+/* ABOUT US */
+
+.about-us{
+    background: var(--second-color);
+}
+
+.contenedor-articulo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.articulo{
+    width: 29%;
+    background: var(--white-color);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 45px 30px 60px 30px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.articulo:hover{
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+}
+
+.about-us h2{
+    text-align: center;
+ }
+
+.articulo > i{
+    font-size: 30px;
+    color: var(--white-color);
+    background: var(--first-color);
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+}
+
+.articulo > h3{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.articulo > p{
+    font-weight: 300;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* TURNO FARMACIA */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.L{
+    margin-right: 40px;
+}
+
+.cards .card .face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.cards .card .face.face1{
+    background: var(--second-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform-origin: bottom;
+}
+
+.cards .card .face.face1 .content h2{
+    max-width: 100px;
+    color: var(--black-color);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.cards .card:hover .face.face1{
+    transform: translateY(-100%) rotateX(90deg);
+    background: var(--white-color);
+}
+
+.cards .card .face.face2{
+    background: #7ff3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform-origin: top;
+    transform: translateY(100%) rotateX(90deg);
+}
+
+.cards .card:hover .face.face2{
+    transform: translateY(0%) rotateX(0deg);
+}
+
+.hc{
+    font-size: 15px;
+    text-align: center
+}
+
+
+.pc{
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Services */
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services > img{
+    width: 500px;
+}
+
+.box-skills{
+    margin: 30px 30px 0 0;
+    text-align: center;
+}
+
+.box-skills h4{
+    font-size: 24px;
+    background: var(--second-color);
+    width: 350px;
+    border-radius: 6px;
+    padding: 10px 0 10px 15px;
+    margin-bottom: 10px;
+}
+
+.box-skills i{
+    color: var(--first-color);
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    background: var(--second-color);
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.partFooter{
+    width: 20%;
+    text-align: center;
+}
+
+.partFooter h4{
+    color: #1d273d;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter .a{
+    display: block;
+    text-decoration: none;
+    color: #5D6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.partFooter .fab Link{
+    display: block;
+    text-decoration: none;
+    color: #5D6678;
+    font-weight: 300;
+    transition: color .3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.partFooter a:hover{
+    color: var(--first-color);
+}
+
+.partFooter img{
+    width: 70%;
+}
+
+.social-media i{
+    font-size: 20px;
+    display: inline-block;
+    color: #abd6c7;
+    border: 1px solid #abd6c7;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .3s;
+    margin-right: 5px;
+}
+
+.social-media i:hover{
+    color: var(--white-color);
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+}
+
+/* BREAKPOINTS RESPONSIVE */
+@media screen and (max-width:800px){
+    .titulo{
+        font-size: 45px;
+    }
+
+    nav, nav .sticky{
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    nav .nlogo{
+        padding-left: -10px;
+    }
+
+    nav img{
+        margin-left: 40px;
+    }
+
+    .bcontacto{
+        margin-left: -20px;
+    }
+
+    .sticky img{
+        margin-left: 40px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    #enlaces-header{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        transition: 0.5s;
+        background: var(--white-color);
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    #enlaces-header.active{
+        left: 0;
+    }
+
+    .menu-icon img{
+        width: 40px;
+        height: 40px;            
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+
+    .menu-icon.active{     
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+
+    .contenido-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 720px;
+    }
+
+    .contenido-header>img{
+        width: 400px;
+    }
+
+    .textos-header{
+        margin: 0;
+    }
+
+    /* About us */
+
+    .articulo{
+        width: 45%;
+    }
+
+    .articulo h3{
+        font-size: 20px;
+    }
+
+    .articulo p{
+        font-size: 15px;
+    }
+
+    /* TURNO */
+    .card{
+        width: 45%;
+        text-align: center;
+    }
+
+    .L{
+        margin-right: 40px;
+    }
+
+    .card h2{
+        font-size: 10px;
+    }
+    
+    .about-us h2{
+       text-align: center;
+    }
+
+    /* Services */
+
+    .services{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .box-skills{
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+
+    .box-skills h4{
+        width: 500px;
+    }
+
+    .services>img{
+        width: 400px;
+    }
+
+    /* FOOTER*/
+
+    footer{
+        justify-content: space-evenly;
+    }
+
+    .partFooter{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .titulo{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .contenido-header{
+        height: 650px;
+    }
+
+    .nav{
+        padding: 0 10px;
+    }
+
+    .nlogo{
+        padding-left: -20px;
+    }
+
+    .contenido-header>img{
+        width: 250px;
+    }
+
+    .contenido-header a{
+        margin-left: 75px;
+    }
+
+    .articulo{
+        width: 95%;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .services>img{
+        width: 250px;
+    }
+
+    .box-skills{
+        text-align: center;
+    }
+
+    .box-skills h4{
+        width: 100%;
+    }
+
+    /*FOOTER*/
+
+    .partFooter{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    .partFooter>img{
+        width: 150px;
+    }
+
 }
