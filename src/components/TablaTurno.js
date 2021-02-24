@@ -12,10 +12,10 @@ const CardsData = [
             s4: "22 al 28"
         },
         farmacias: {
-            s1: "FARMA 17, A & L, LA CLINICA",
-            s2: "GABRIELA, M & L, SANTIS ESPIRITUS Nº2",
-            s3: "MILENIUM, EL DESCUENTO, ALFARO",
-            s4: "BELEN, IRELA, SHALOM"
+            s1: "FARMA 17 | A & L | LA CLINICA",
+            s2: "GABRIELA | M & L | SANTIS ESPIRITUS Nº2",
+            s3: "MILENIUM | EL DESCUENTO | ALFARO",
+            s4: "BELEN | IRELA | SHALOM"
         }
 
     },
@@ -28,10 +28,10 @@ const CardsData = [
             s4: "19 al 25"
         },
         farmacias: {
-            s1: "JERUSALEN Nº2, FARMACENTER, LA MERCED",
-            s2: "SANTA MARIA, REGINA, YIREH",
-            s3: "INMACULADA CONCEPCION, EL AHORRO, GUADALUPE Nº2",
-            s4: "SOL,SOMOTO, MADRIZ Nº1, SANTA LUCIA"
+            s1: "JERUSALEN Nº2 | FARMACENTER | LA MERCED",
+            s2: "SANTA MARIA | REGINA | YIREH",
+            s3: "INMACULADA CONCEPCION | EL AHORRO | GUADALUPE Nº2",
+            s4: "SOL,SOMOTO | MADRIZ Nº1 | SANTA LUCIA"
         }
     },
     {
@@ -44,11 +44,11 @@ const CardsData = [
             s5: "24 al 30"
         },
         farmacias: {
-            s1: "JERUSALEN Nº1, EL ABUELO, SAN JOSE",
-            s2: "KAREL, MADRIZ Nº2, CELESTIAL",
-            s3: "JENNY, DR. GERRERO, FARMAMEDICAL",
-            s4: "CELESTIAL, LA BOTICA, SAN FRANCISCO",
-            s5: "YAMILETH, SANTANDER, DIVINO NIÑO"
+            s1: "JERUSALEN Nº1 | EL ABUELO | SAN JOSE",
+            s2: "KAREL | MADRIZ Nº2 | CELESTIAL",
+            s3: "JENNY | DR. GERRERO | FARMAMEDICAL",
+            s4: "CELESTIAL | LA BOTICA | SAN FRANCISCO",
+            s5: "YAMILETH | SANTANDER | DIVINO NIÑO"
         }
         
     },
@@ -61,10 +61,10 @@ const CardsData = [
             s4: "21 al 27"
         },
         farmacias: {
-            s1: "SERVI FARMA, MI ESPERANZA, ECONOFAR",
-            s2: "LA CENTRAL, MI FAMILIA, SARAHI",
-            s3: "ALTAMIRANO, FARMA 17, A & L",
-            s4: "LA CLINICA, GABRIELA, M & L"
+            s1: "SERVI FARMA | MI ESPERANZA | ECONOFAR",
+            s2: "LA CENTRAL | MI FAMILIA | SARAHI",
+            s3: "ALTAMIRANO | FARMA 17 | A & L",
+            s4: "LA CLINICA | GABRIELA | M & L"
         }
     },
     {
@@ -76,10 +76,10 @@ const CardsData = [
             s4: "19 al 25"
         },
         farmacias: {
-            s1: "SANTIS ESPIRITUS Nº2, MILENIUM, EL DESCUENTO",
-            s2: "ALFARO, BELEN, IRELA",
-            s3: "SHALOM, JERUSALEM Nº2, FARMACENTER",
-            s4: "LA MERCED, SANTA MARIA, REGINA"
+            s1: "SANTIS ESPIRITUS Nº2 | MILENIUM | EL DESCUENTO",
+            s2: "ALFARO | BELEN | IRELA",
+            s3: "SHALOM | JERUSALEM Nº2 | FARMACENTER",
+            s4: "LA MERCED | SANTA MARIA | REGINA"
         }
     },
     {
@@ -91,10 +91,10 @@ const CardsData = [
             s4: "16 al 22"
         },
         farmacias: {
-            s1: "YIREH, INMACULADA CONCEPCION, EL AHORRO",
-            s2: "GUADALUPE Nº2, SOL,SOMOTO, MADRIZ Nº1",
-            s3: "SANTA LUCIA, JERUSALEM Nº1, EL ABUELO",
-            s4: "SAN JOSE, KAREL, MADRIZ Nº2"
+            s1: "YIREH | INMACULADA CONCEPCION | EL AHORRO",
+            s2: "GUADALUPE Nº2 | SOL,SOMOTO | MADRIZ Nº1",
+            s3: "SANTA LUCIA | JERUSALEM Nº1 | EL ABUELO",
+            s4: "SAN JOSE | KAREL | MADRIZ Nº2"
         }
     }
 ]

@@ -36,10 +36,10 @@ export default function Nav() {
             
             <ul className = { click ? "active" : "inactive"} id="enlaces-header">
                 
-                <li><Link smooth to='#' className={closeMenu}>Inicio</Link></li>
-                <li><Link smooth to='#Salud' className={closeMenu}>Salud</Link></li>
-                <li><Link smooth to='#TablaTurno' className={closeMenu}>Farmacias de Turno</Link></li>
-                <li><Link smooth to='#Services' className={closeMenu}>Servicios</Link></li>
+                <li><Link smooth to='#' onClick={closeMenu}>Inicio</Link></li>
+                <li><Link smooth to='#Salud' onClick={closeMenu}>Salud</Link></li>
+                <li><Link smooth to='#TablaTurno' onClick={closeMenu}>Farmacias de Turno</Link></li>
+                <li><Link smooth to='#Services' onClick={closeMenu}>Servicios</Link></li>
             </ul>
             </nav> 
 

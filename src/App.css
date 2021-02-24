@@ -304,13 +304,14 @@ nav ul li a{
 
 .hc{
     font-size: 15px;
-    text-align: center
+    text-align: center;
 }
 
 
 .pc{
     font-size: 12px;
     text-align: center;
+    word-spacing: 3px;
 }
 
 /* Services */
