@@ -24,7 +24,6 @@ export default function Footer() {
                         <div class="social-media">
                             <Link className="fab" to={{pathname:facebook}} target="_blank" ><i className="fab fa-facebook"></i></Link>
                             <Link className="fab" to={{pathname:facebook}} target="_blank" ><i className="fab fa-instagram"></i></Link>
-                            <Link className="fab" to={{pathname:facebook}} target="_blank" ><i className="fab fa-youtube"></i></Link>
                         </div>
                 </div>
             </footer>
