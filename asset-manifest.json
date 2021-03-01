@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Farmacia-Alfaro/static/css/main.8f7d40ae.chunk.css",
+    "main.js": "/Farmacia-Alfaro/static/js/main.6e2fe9ba.chunk.js",
+    "main.js.map": "/Farmacia-Alfaro/static/js/main.6e2fe9ba.chunk.js.map",
+    "runtime-main.js": "/Farmacia-Alfaro/static/js/runtime-main.536850cc.js",
+    "runtime-main.js.map": "/Farmacia-Alfaro/static/js/runtime-main.536850cc.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/Farmacia-Alfaro/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.02700858.chunk.js": "/Farmacia-Alfaro/static/js/2.02700858.chunk.js",
+    "static/js/2.02700858.chunk.js.map": "/Farmacia-Alfaro/static/js/2.02700858.chunk.js.map",
+    "index.html": "/Farmacia-Alfaro/index.html",
+    "precache-manifest.c0bbfb7fa9bbfc3bd9de61fc60d79dc5.js": "/Farmacia-Alfaro/precache-manifest.c0bbfb7fa9bbfc3bd9de61fc60d79dc5.js",
+    "service-worker.js": "/Farmacia-Alfaro/service-worker.js",
+    "static/css/2.eb43dee1.chunk.css.map": "/Farmacia-Alfaro/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.8f7d40ae.chunk.css.map": "/Farmacia-Alfaro/static/css/main.8f7d40ae.chunk.css.map",
+    "static/js/2.02700858.chunk.js.LICENSE.txt": "/Farmacia-Alfaro/static/js/2.02700858.chunk.js.LICENSE.txt",
+    "static/media/ilustracion1.svg": "/Farmacia-Alfaro/static/media/ilustracion1.154cf898.svg",
+    "static/media/ilustracion3.svg": "/Farmacia-Alfaro/static/media/ilustracion3.67868639.svg",
+    "static/media/logo.jpg": "/Farmacia-Alfaro/static/media/logo.bdb56c09.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.536850cc.js",
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.02700858.chunk.js",
+    "static/css/main.8f7d40ae.chunk.css",
+    "static/js/main.6e2fe9ba.chunk.js"
+  ]
+}
