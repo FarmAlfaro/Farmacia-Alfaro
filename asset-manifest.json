@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/farmacia-alfaro/static/css/main.8f7d40ae.chunk.css",
-    "main.js": "/farmacia-alfaro/static/js/main.c7007e43.chunk.js",
-    "main.js.map": "/farmacia-alfaro/static/js/main.c7007e43.chunk.js.map",
+    "main.js": "/farmacia-alfaro/static/js/main.1029b9bf.chunk.js",
+    "main.js.map": "/farmacia-alfaro/static/js/main.1029b9bf.chunk.js.map",
     "runtime-main.js": "/farmacia-alfaro/static/js/runtime-main.c32bfdce.js",
     "runtime-main.js.map": "/farmacia-alfaro/static/js/runtime-main.c32bfdce.js.map",
     "static/css/2.eb43dee1.chunk.css": "/farmacia-alfaro/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.02700858.chunk.js": "/farmacia-alfaro/static/js/2.02700858.chunk.js",
-    "static/js/2.02700858.chunk.js.map": "/farmacia-alfaro/static/js/2.02700858.chunk.js.map",
+    "static/js/2.31bf3940.chunk.js": "/farmacia-alfaro/static/js/2.31bf3940.chunk.js",
+    "static/js/2.31bf3940.chunk.js.map": "/farmacia-alfaro/static/js/2.31bf3940.chunk.js.map",
     "index.html": "/farmacia-alfaro/index.html",
-    "precache-manifest.618ee63c78e0c55632acf7a38ab89970.js": "/farmacia-alfaro/precache-manifest.618ee63c78e0c55632acf7a38ab89970.js",
+    "precache-manifest.c243048cb503fb6a9c31a0528c4b10ec.js": "/farmacia-alfaro/precache-manifest.c243048cb503fb6a9c31a0528c4b10ec.js",
     "service-worker.js": "/farmacia-alfaro/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/farmacia-alfaro/static/css/2.eb43dee1.chunk.css.map",
     "static/css/main.8f7d40ae.chunk.css.map": "/farmacia-alfaro/static/css/main.8f7d40ae.chunk.css.map",
-    "static/js/2.02700858.chunk.js.LICENSE.txt": "/farmacia-alfaro/static/js/2.02700858.chunk.js.LICENSE.txt",
+    "static/js/2.31bf3940.chunk.js.LICENSE.txt": "/farmacia-alfaro/static/js/2.31bf3940.chunk.js.LICENSE.txt",
     "static/media/ilustracion1.svg": "/farmacia-alfaro/static/media/ilustracion1.154cf898.svg",
     "static/media/ilustracion3.svg": "/farmacia-alfaro/static/media/ilustracion3.67868639.svg",
     "static/media/logo.jpg": "/farmacia-alfaro/static/media/logo.bdb56c09.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.c32bfdce.js",
     "static/css/2.eb43dee1.chunk.css",
-    "static/js/2.02700858.chunk.js",
+    "static/js/2.31bf3940.chunk.js",
     "static/css/main.8f7d40ae.chunk.css",
-    "static/js/main.c7007e43.chunk.js"
+    "static/js/main.1029b9bf.chunk.js"
   ]
 }

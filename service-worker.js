@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/farmacia-alfaro/precache-manifest.618ee63c78e0c55632acf7a38ab89970.js"
+  "/farmacia-alfaro/precache-manifest.c243048cb503fb6a9c31a0528c4b10ec.js"
 );
 
 self.addEventListener('message', (event) => {
